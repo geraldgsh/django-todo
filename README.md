@@ -8,7 +8,7 @@ DJango
 
 ### Introduction.
 
-Backend API server for Todo app using Django
+Backend API server for Todo app using Django from [Digital Ocean Tutorial](https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react)
 
 ### Requirements
 

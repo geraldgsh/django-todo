@@ -1,6 +1,5 @@
-# Django-Todo
-
-DJango
+# django-todo
+Django and Python
 
 ### Snapshot
 
@@ -8,10 +7,7 @@ DJango
 
 ### Introduction.
 
-Backend API server for Todo app using Django from [Digital Ocean Tutorial](https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react)
-
-### Requirements
-
+Todo application using Django as backend deployed to Heroku
 
 ### Tools
 
@@ -26,10 +22,9 @@ Backend API server for Todo app using Django from [Digital Ocean Tutorial](https
 ### To begin
 
 1. Clone Repo
-2. 'pipenv shell' to start python virtual environment
-3. `cd backend` to access backend folder
-4. `python manage.py runserver` to start server
-5. Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
+2. '$ python3 manage.py migrate' migrate database
+3. 'python3 manage.py runserver' on terminal
+4. Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 
 ### To test
 
@@ -40,7 +35,7 @@ Backend API server for Todo app using Django from [Digital Ocean Tutorial](https
 Checkout our [wikipage](https://github.com/geraldgsh/django-todo/wiki) for more details. 
 
 #### Live Demo
-[Demo](\)
+[Demo](https://djangotodo-app.herokuapp.com)
 
 #### Getting Started
 Clone repo and open index.html with your favorite browser.

@@ -4,11 +4,16 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "<2.0.0"
 
 [packages]
+gunicorn = "*"
+dj-database-url = "*"
+whitenoise = "*"
+django-heroku = "*"
+psycopg2 = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
+install = "*"
 
 [requires]
-python_version = "3.5"
+python_version = "3.8"

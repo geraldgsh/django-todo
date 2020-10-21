@@ -1,5 +1,3 @@
-# todo/views.py
-
 from django.shortcuts import render
 from rest_framework import viewsets          # add this
 from .serializers import TodoSerializer      # add this

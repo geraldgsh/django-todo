@@ -6,6 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+gunicorn = "*"
+dj-database-url = "*"
+whitenoise = "*"
+django-heroku = "*"
+psycopg2 = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.8"

@@ -1,1 +1,1 @@
-web: gunicorn djtest.wsgi --log-file -
+web: gunicorn django-todo.wsgi --log-file -

@@ -13,6 +13,7 @@ django-heroku = "*"
 psycopg2 = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
+install = "*"
 
 [requires]
 python_version = "3.8"

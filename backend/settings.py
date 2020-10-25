@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ql$lyyhoq(s!sa0+en9-!fj9st-y=(=2o_eoh8he+pfba)i0!1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -137,7 +137,8 @@ STATIC_URL = '/static/'
 # we whitelist localhost:3000 because that's where frontend will be served
 CORS_ORIGIN_WHITELIST = (
      'http://localhost:3000',
-     'https://localhost:3000'
+     'https://localhost:3000',
+     'https://react-todoapplet.netlify.app'
  )
 
 django_heroku.settings(locals())

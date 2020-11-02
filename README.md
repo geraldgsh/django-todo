@@ -35,7 +35,7 @@ Todo application using Django as backend deployed to Heroku
 Checkout our [wikipage](https://github.com/geraldgsh/django-todo/wiki) for more details. 
 
 #### Live Demo
-[Demo](https://djangotodo-app.herokuapp.com)
+[Demo](https://djangotodo-app.herokuapp.com/)
 
 #### Getting Started
 Clone repo and open index.html with your favorite browser.

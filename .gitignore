@@ -8,3 +8,4 @@ media
 venv/
 /static
 .vscode
+.env
